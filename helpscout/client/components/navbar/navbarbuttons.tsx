@@ -9,7 +9,7 @@ export const NavbarButton: FC<NavbarButtonProps> = ({ text }) => {
   return (
     <div className="pl-2 pt-14">
     <button className="">
-      <span className="font-semibold text-stone-600 text-lg">{text}</span>
+      <span className="font-semibold text-stone-600 text-sm">{text}</span>
     </button>
     </div>
   );

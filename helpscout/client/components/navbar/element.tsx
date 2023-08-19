@@ -34,11 +34,11 @@ const Elements: FC = () => {
           <NavbarButton text="Planning" />
         </div>
         <div className="flex justify-end ml-80 pl-80">
-                <button className="text-stone-600 pr-2 text-xl">Login</button>
+                <button className="text-stone-600 pr-2 text-sm">Login</button>
         </div>
 
-        <div className="flex justify-end ml-auto pr-80 pt-12">
-                <button className="bg-blue-500 font-semibold text-white flex items-center justify-center h-14 rounded w-24">Free Trial</button>
+        <div className="flex justify-end ml-auto pt-12">
+                <button className="bg-blue-500 font-semibold text-base text-white flex items-center justify-center h-10 rounded w-24">Free Trial</button>
         </div>
         </div>
     
