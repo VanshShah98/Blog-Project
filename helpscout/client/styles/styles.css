@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.pr-48 {
+  /* This will shift the logo and text towards the right */
+  margin-right: 208px;
+}
+
+.text-bottom {
+  /* This will shift the text towards the bottom */
+  margin-bottom: 10px;
+}
