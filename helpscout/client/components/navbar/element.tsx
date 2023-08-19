@@ -1,19 +1,21 @@
 import React, { FC } from "react";
 import NavbarButton from "./navbarbuttons";
 import Image from "next/image";
+import { COMPANIES } from "@/utils/constants";
 
 
 
 const Elements: FC = () => {
   return (
     <>
-        {/*<Image className="flex flex-row"
-              src={""}
-              width={20}
-              height={20} 
-  alt={""}/>*/}
+    <div className="flex flex-row pl-16">
+        {<Image className="w-36"
+              src={COMPANIES.HELPSCOUT}
+              width={0}
+              height={0}
+              alt={""}/>}
       <div className="flex flex-row pl-9">
-        <div className="pl-2">
+        <div className="pl-8">
           <NavbarButton text="Solutions" />
         </div>
 
@@ -31,15 +33,16 @@ const Elements: FC = () => {
         <div className="pl-2">
           <NavbarButton text="Planning" />
         </div>
-
-        <div className="flex justify-end ml-96 pl-80 pt-2">
-                <button className="text-stone-600 px-4 py-2">Login</button>
+        <div className="flex justify-end ml-80 pl-80">
+                <button className="text-stone-600 pr-2 text-xl">Login</button>
         </div>
 
-        <div className="flex justify-end ml-auto pr-72 pt-2">
-                <button className="bg-blue-500 font-semibold text-white flex items-center justify-center rounded w-24">Free Trial</button>
+        <div className="flex justify-end ml-auto pr-80 pt-12">
+                <button className="bg-blue-500 font-semibold text-white flex items-center justify-center h-14 rounded w-24">Free Trial</button>
         </div>
-      </div>
+        </div>
+    
+    </div>  
 
 
     </>
