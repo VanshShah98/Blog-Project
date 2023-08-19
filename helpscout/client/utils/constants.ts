@@ -3,5 +3,6 @@ export const COMPANIES = {
     HONEY:"/companies/honey.svg",
     MIXMAX: "/companies/mixmax.svg",
     SPIKEBALL:"/companies/spikeball.svg",
-    SPIKEDRIFT:"/companies/Spindrift.svg"
+    SPIKEDRIFT:"/companies/Spindrift.svg",
+    HELPSCOUT:"/companies/HelpScout.svg"
   };
